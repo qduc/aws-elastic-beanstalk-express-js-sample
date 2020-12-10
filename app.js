@@ -4,7 +4,7 @@ const port = 8080;
 
 app.get('/', (req, res) => res.send('NodeJs Application'));
 
-app.get('/hello', (req, res) => res.send('Hello world!'));
+app.get('/hello', (req, res) => res.send('Hello !'));
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
